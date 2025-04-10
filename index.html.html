@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Football Team</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 2em 1em;
+    }
+    header img {
+      max-height: 100px;
+    }
+    nav {
+      background: #111;
+      text-align: center;
+      padding: 0.75em;
+    }
+    nav a {
+      color: #00ffcc;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      background: rgba(255, 255, 255, 0.05);
+      margin: 20px;
+      border-radius: 10px;
+    }
+    h2 {
+      text-align: center;
+      color: #00ffcc;
+    }
+    .players, .matches {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      width: 200px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 2em 1em;
+      color: #aaa;
+    }
+    .instagram {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Team Logo" />
+    <h1>Your Football Team</h1>
+    <p>⚽ United by Passion. Driven by Victory. ⚽</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#players">Players</a>
+    <a href="#matches">Matches</a>
+    <a href="#instagram">Instagram</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="text-align: center;">We are a dedicated football team striving for greatness through unity, skill, and relentless hustle on the field.</p>
+  </section>
+
+  <section id="players">
+    <h2>Meet the Players</h2>
+    <div class="players">
+      <div class="card">
+        <img src="player1.jpg" alt="John Doe" />
+        <strong>KingstonBrany</strong><br />
+        Forward
+      </div>
+      <div class="card">
+        <img src="player2.jpg" alt="Alex Smith" />
+        <strong>Uncle Chumi</strong><br />
+        Goalkeeper
+      </div>
+      <div class="card">
+        <img src="player3.jpg" alt="Leo Brown" />
+        <strong>Peter</strong><br />
+        Defender
+      </div>
+      <!-- Add more players here -->
+    </div>
+  </section>
+
+  <section id="matches">
+    <h2>Upcoming Matches</h2>
+    <div class="matches">
+      <div class="card"><strong>vs Red Hawks</strong><br />April 15, 2025</div>
+      <div class="card"><strong>vs Blue Stars</strong><br />April 22, 2025</div>
+      <!-- Add more matches here -->
+    </div>
+  </section>
+
+  <section id="instagram">
+    <h2>Follow Us on Instagram</h2>
+    <div class="instagram">
+      <!-- Replace with actual Instagram embed -->
+      <p>[Instagram feed will be embedded here]</p>
+      <iframe 
+        src="https://www.instagram.com/p/CqYo4vELkU7/embed" 
+        width="320" 
+        height="400" 
+        frameborder="0" 
+        scrolling="no" 
+        allowtransparency="true">
+      </iframe>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>📧 team@example.com | 📍 Your City | 🕸️ @yourteamhandle</p>
+    <p>&copy; 2025 Your Football Team</p>
+  </footer>
+
+</body>
+</html>
